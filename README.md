@@ -18,7 +18,7 @@
 ### Dataset & Preparation
 Download [University-1652](https://github.com/layumi/University1652-Baseline) upon request. You may use the request [template](https://github.com/layumi/University1652-Baseline/blob/master/Request.md).
 
-Download [SUES-200](https://github.com/Reza-Zhu/SUES-200-Benchmark).
+<!--Download [SUES-200](https://github.com/Reza-Zhu/SUES-200-Benchmark).-->
 
 Download [CVUSA](https://hdueducn-my.sharepoint.com/:u:/g/personal/wongtyu_hdu_edu_cn/EcaV9nPk2NxEgAp4MlV1FH4BplbDSqFMxEqqpwf9ooHshw?e=tIXFsB).
 
@@ -27,6 +27,43 @@ Download [CVUSA](https://hdueducn-my.sharepoint.com/:u:/g/personal/wongtyu_hdu_e
 ```  
 sh run.sh
 ```
+### Train & Evaluation CVUSA
+```  
+python prepare_cvusa.py  
+sh run_cvusa.sh
+```
+## Citation
 
+```bibtex
+@ARTICLE{wang2024Muse,
+  title={Multiple-environment Self-adaptive Network for Aerial-view Geo-localization}, 
+  author={Wang, Tingyu and Zheng, Zhedong and Sun, Yaoqi and Yan, Chenggang and Yang, Yi and Tat-Seng Chua},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  year={2022},
+  volume={32},
+  number={2},
+  pages={867-879},
+  doi={10.1109/TCSVT.2021.3061265}}
+```
 
+```bibtex
+@ARTICLE{wang2021LPN,
+  title={Each Part Matters: Local Patterns Facilitate Cross-View Geo-Localization}, 
+  author={Wang, Tingyu and Zheng, Zhedong and Yan, Chenggang and Zhang, Jiyong and Sun, Yaoqi and Zheng, Bolun and Yang, Yi},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  year={2022},
+  volume={32},
+  number={2},
+  pages={867-879},
+  doi={10.1109/TCSVT.2021.3061265}}
+```
+```bibtex
+@article{zheng2020university,
+  title={University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization},
+  author={Zheng, Zhedong and Wei, Yunchao and Yang, Yi},
+  journal={ACM Multimedia},
+  year={2020}
+}
+```
+## Related Work
 
