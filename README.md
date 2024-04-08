@@ -17,7 +17,9 @@
 ## Getting started
 ### Dataset & Preparation
 Download [University-1652](https://github.com/layumi/University1652-Baseline) upon request. You may use the request [template](https://github.com/layumi/University1652-Baseline/blob/master/Request.md).
+
 Download [SUES-200](https://github.com/Reza-Zhu/SUES-200-Benchmark).
+
 Download [CVUSA](https://hdueducn-my.sharepoint.com/:u:/g/personal/wongtyu_hdu_edu_cn/EcaV9nPk2NxEgAp4MlV1FH4BplbDSqFMxEqqpwf9ooHshw?e=tIXFsB).
 
 ## Train & Evaluation
