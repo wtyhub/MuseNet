@@ -38,12 +38,11 @@ sh run_cvusa.sh
 @ARTICLE{wang2024Muse,
   title={Multiple-environment Self-adaptive Network for Aerial-view Geo-localization}, 
   author={Wang, Tingyu and Zheng, Zhedong and Sun, Yaoqi and Yan, Chenggang and Yang, Yi and Tat-Seng Chua},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
-  year={2022},
-  volume={32},
-  number={2},
-  pages={867-879},
-  doi={10.1109/TCSVT.2021.3061265}}
+  journal = {Pattern Recognition},
+  volume = {152},
+  pages = {110363},
+  year = {2024},
+  doi = {https://doi.org/10.1016/j.patcog.2024.110363}}
 ```
 
 ```bibtex
