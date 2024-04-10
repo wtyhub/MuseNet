@@ -27,6 +27,7 @@ Download [CVUSA](https://hdueducn-my.sharepoint.com/:u:/g/personal/wongtyu_hdu_e
 ```  
 sh run.sh
 ```
+[Download](https://hdueducn-my.sharepoint.com/:u:/g/personal/wongtyu_hdu_edu_cn/EcUM81Bpc35DsgxbbscP9ewB_Qdrtk2TDLc1Z1dLRh0jAg?e=H32yw3) the trained model 
 ### Train & Evaluation CVUSA
 ```  
 python prepare_cvusa.py  
