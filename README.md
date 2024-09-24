@@ -19,6 +19,7 @@
 - Numpy > 1.12.1
 - Pytorch 0.3+
 - scipy == 1.2.1
+- imgaug == 0.4.0
 
 ## Getting started
 ### Dataset & Preparation
