@@ -1,4 +1,4 @@
-## Aerial-view Geo-localization
+## Multi-weather Aerial-view Geo-localization
 
   * [University-1652 Dataset](#university-1652-dataset)
   * [SUES-200 Dataset](#sues-200-dataset)
@@ -6,7 +6,7 @@
 
 ### University-1652 Dataset
 
-| Methods | R@1 | AP | R@1 | AP | Reference |
+| Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --- | -- | --------- |
 | | Drone -> Satellite | | Satellite -> Drone | |
 | VGG16 | 49.96 | 55.03 | 69.52 | 48.50 | Karen Simonyan, Andrew Zisserman. Very Deep Convolutional Networks for Large-Scale Image Recognition. ICLR 2015. [[Paper]](https://arxiv.org/abs/1409.1556) [[Code]](https://github.com/Prabhu204/Very-Deep-Convolutional-Networks-for-Large-Scale-Image-Recognition)|
@@ -28,7 +28,7 @@
 
 ### SUES-200 Dataset
 
-| Methods | R@1 | AP | R@1 | AP | Reference |
+| Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --- | -- | --------- |
 | | Drone -> Satellite | | Satellite -> Drone | |
 | Zheng et al. | 33.40 | 39.63 | 45.75 | 30.58 | Zhedong Zheng, Yunchao Wei, Yi Yang. University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization. MM 2020. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)[[Code]](https://github.com/layumi/University1652-Baseline) |
@@ -39,12 +39,13 @@
 
 ### CVUSA Dataset
 
-| Methods | R@1 | AP | Reference |
+| Methods | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --------- |
 | | Street -> Satellite | | |
 | Zhengetal. | 59.30 | 63.52 | Zhedong Zheng, Yunchao Wei, Yi Yang. University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization. MM 2020. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)[[Code]](https://github.com/layumi/University1652-Baseline) |
 | IBN-Net | 73.49 | 76.66 | Xingang Pan, Ping Luo, Jianping Shi, Xiaoou Tang. Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net. ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Xingang_Pan_Two_at_Once_ECCV_2018_paper.html)[[Code]](https://github.com/Asthestarsfalll/IBNNet-MegEngine) |
 | MuSe-Net | 75.00 | 78.04 | Tingyu Wang, Zhedong Zheng, Yaoqi Sun, Chenggang Yan, Yi Yang, Tat-Seng Chua. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization. PR 2024. [[Paper]](https://arxiv.org/abs/2204.08381)[[Code]](https://github.com/wtyhub/MuseNet) |
+
 
 
 
