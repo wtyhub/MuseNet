@@ -5,7 +5,7 @@
   * [CVUSA Dataset](#cvusa-dataset)
 
 ### University-1652 Dataset
-
+🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
 | Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --- | -- | --------- |
 | | Drone -> Satellite | | Satellite -> Drone | |
@@ -23,11 +23,12 @@
 | CDM-Net | 84.85 | 85.74 | - | - | Xin Zhou, Xuerong Yang, Yanchun Zhang. CDM-Net: A Framework for Cross-View Geo-Localization With Multimodal Data. TGRS 2025. [[Paper]](https://ieeexplore.ieee.org/abstract/document/11105551)[[Code]](https://github.com/cver6/CDM-Net) (Lack of rain, snow) |
 | Sample4Geo | 85.58 | 88.24 | 94.21 | 85.50 | Fabian Deuser, Konrad Habel, Norbert Oswald. Sample4Geo: Hard Negative Sampling For Cross-View Geo-Localisation. ICCV 2023. [[Paper]](https://openaccess.thecvf.com/content/ICCV2023/html/Deuser_Sample4Geo_Hard_Negative_Sampling_For_Cross-View_Geo-Localisation_ICCV_2023_paper.html)[[Code]](https://github.com/Skyy93/Sample4Geo) |
 | DAC | 89.64 | 91.35 | - | - | Panwang Xia, Yi Wan, Zhi Zheng, Yongjun Zhang. Enhancing Cross-View Geo-Localization With Domain Alignment and Scene Consistency. TCSVT 2024. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10054158)[[Code]](https://github.com/SummerpanKing/DAC) (Lack of rain, snow) |
+| P2FCN | 91.05 | 92.34 | 95.49 | 90.61 | Qiang Zhao, Jiayu Zhou, Tingyu Wang, Quan Chen, Rongfeng Lu, Chenggang Yan. P2FCN: Environment-Independent UAV-View Geo-Localization via Pixel-to-Feature Co-Enhancement. TGRS 2025. [[Paper]](https://ieeexplore.ieee.org/document/11300310)|
 | CGSI | 92.65 | 93.66 | 94.39 | 92.22 | Jian Sun, Junlang Huang, Xinyu Jiang, Yimin Zhou, Chi-Man VONG. CGSI: Context-Guided and UAV’s Status Informed Multimodal Framework for Generalizable Cross-View Geo-Localization. [[Paper]](https://ieeexplore.ieee.org/abstract/document/11145113) |
 
 
-### SUES-200 Dataset
-
+### SUES-200 Dataset (150m height)
+🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
 | Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --- | -- | --------- |
 | | Drone -> Satellite | | Satellite -> Drone | |
@@ -35,16 +36,17 @@
 | IBN-Net | 39.58 | 46.23 | 52.25 | 37.78 | Xingang Pan, Ping Luo, Jianping Shi, Xiaoou Tang. Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net. ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Xingang_Pan_Two_at_Once_ECCV_2018_paper.html)[[Code]](https://github.com/Asthestarsfalll/IBNNet-MegEngine) |
 | MuSe-Net | 41.59 | 48.53 | 53.38 | 39.20 | Tingyu Wang, Zhedong Zheng, Yaoqi Sun, Chenggang Yan, Yi Yang, Tat-Seng Chua. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization. PR 2024. [[Paper]](https://arxiv.org/abs/2204.08381)[[Code]](https://github.com/wtyhub/MuseNet) |
 | WeatherPrompt | 62.52 | 63.26 | 80.73 | 66.12 | Jiahao Wen, Hang Yu, Zhedong Zheng. WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization. NeurIPS 2025. [[Paper]](https://arxiv.org/abs/2508.09560)[[Code]](https://github.com/Jahawn-Wen/WeatherPrompt) |
-
+| P2FCN | 78.64 | 82.44 | 91.50 | 82.49 | Qiang Zhao, Jiayu Zhou, Tingyu Wang, Quan Chen, Rongfeng Lu, Chenggang Yan. P2FCN: Environment-Independent UAV-View Geo-Localization via Pixel-to-Feature Co-Enhancement. TGRS 2025. [[Paper]](https://ieeexplore.ieee.org/document/11300310)|
 
 ### CVUSA Dataset
-
+🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind
 | Methods | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --------- |
 | | Street -> Satellite | | |
 | Zhengetal. | 59.30 | 63.52 | Zhedong Zheng, Yunchao Wei, Yi Yang. University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization. MM 2020. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)[[Code]](https://github.com/layumi/University1652-Baseline) |
 | IBN-Net | 73.49 | 76.66 | Xingang Pan, Ping Luo, Jianping Shi, Xiaoou Tang. Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net. ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Xingang_Pan_Two_at_Once_ECCV_2018_paper.html)[[Code]](https://github.com/Asthestarsfalll/IBNNet-MegEngine) |
 | MuSe-Net | 75.00 | 78.04 | Tingyu Wang, Zhedong Zheng, Yaoqi Sun, Chenggang Yan, Yi Yang, Tat-Seng Chua. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization. PR 2024. [[Paper]](https://arxiv.org/abs/2204.08381)[[Code]](https://github.com/wtyhub/MuseNet) |
+
 
 
 
