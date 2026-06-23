@@ -4,7 +4,7 @@
   * [SUES-200 Dataset](#sues-200-dataset)
   * [CVUSA Dataset](#cvusa-dataset)
 
-### University-1652 Dataset
+### University-WX Dataset
 🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
 | Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
 | ------- | --- | -- | --- | -- | --------- |
