@@ -1,9 +1,9 @@
 ## Multi-weather Aerial-view Geo-localization
 
-  * [University-1652 Dataset](#university-1652-dataset)
+  * [University-1652 Dataset](#university-wx-dataset)
   * [SUES-200 Dataset](#sues-200-dataset)
   * [CVUSA Dataset](#cvusa-dataset)
-  * [DenseUAV Dataset]
+  * [DenseUAV Dataset](#DenseUAV-Dataset)
 
 ### University-WX Dataset
 🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
