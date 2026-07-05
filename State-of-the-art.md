@@ -3,6 +3,7 @@
   * [University-1652 Dataset](#university-1652-dataset)
   * [SUES-200 Dataset](#sues-200-dataset)
   * [CVUSA Dataset](#cvusa-dataset)
+  * [DenseUAV Dataset]
 
 ### University-WX Dataset
 🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
@@ -47,6 +48,18 @@
 | Zhengetal. | 59.30 | 63.52 | Zhedong Zheng, Yunchao Wei, Yi Yang. University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization. MM 2020. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3394171.3413896)[[Code]](https://github.com/layumi/University1652-Baseline) |
 | IBN-Net | 73.49 | 76.66 | Xingang Pan, Ping Luo, Jianping Shi, Xiaoou Tang. Two at Once: Enhancing Learning and Generalization Capacities via IBN-Net. ECCV 2018. [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/html/Xingang_Pan_Two_at_Once_ECCV_2018_paper.html)[[Code]](https://github.com/Asthestarsfalll/IBNNet-MegEngine) |
 | MuSe-Net | 75.00 | 78.04 | Tingyu Wang, Zhedong Zheng, Yaoqi Sun, Chenggang Yan, Yi Yang, Tat-Seng Chua. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization. PR 2024. [[Paper]](https://arxiv.org/abs/2204.08381)[[Code]](https://github.com/wtyhub/MuseNet) |
+
+### DenseUAV Dataset
+🌟 The "Mean R@1" and "Mean AP" in the table represent the average values of the R@1 and AP results across all ten weather conditions listed: normal, fog, rain, snow, fog+rain, fog+snow, rain+snow, dark, overexposure, and wind.
+| Methods | Mean R@1 | Mean AP | Mean R@1 | Mean AP | Reference |
+| ------- | --- | -- | --- | -- | --------- |
+| | Drone -> Satellite | | Satellite -> Drone | |
+| Safe-Net | 13.03 | 16.84 | 14.74 | 19.03 | Jinliang Lin, Zhiming Luo,  Dazhen Lin, Shaozi Li, Zhun Zhong. A Self-Adaptive Feature Extraction Method for Aerial-View Geo-Localization. TIP 2025. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10797651)|
+| WeatherPrompt | 29.25 | 35.19 | 27.78 | 33.91 | Jiahao Wen, Hang Yu, Zhedong Zheng. WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization. NeurIPS 2025. [[Paper]](https://arxiv.org/abs/2508.09560)[[Code]](https://githubcom/Jahawn-Wen/WeatherPrompt) |
+| MuSe-Net | 37.28 | 43.17 | 33.55 | 39.79 | Tingyu Wang, Zhedong Zheng, Yaoqi Sun, Chenggang Yan, Yi Yang, Tat-Seng Chua. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization. PR 2024. [[Paper]](https://arxiv.org/abs/2204.08381)[[Code]](https://github.com/wtyhub/MuseNet) |
+| LRFR | 41.53 | 48.86 | 41.89 | 49.81 | Wenjian Gan, Yang Zhou, Xiaofei Hu, Luying Zhao, Gaoshuang Huang, Mingbo Hou. Learning robust feature representation for cross-view image geo-localization. GRSL 2025. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10896706)[[Code]](https://github.com/WenjianGan/LRFR) |
+| LPN | 44.67 | 45.77 | 43.39 | 49.31 | Tingyu Wang, Zhedong Zheng, Chenggang Yan, and Yi, Yang. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021.[[Paper]](https://arxiv.org/abs/2008.11646)[[Code]](https://github.com/wtyhub/LPN) |
+| GeoFuse | 52.43 | 58.39 | 49.03 | 54.96 | Yunsong Fang, Tingyu Wang, Zhedong Zheng. Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localization with GeoFuse. [[Paper]](https://arxiv.org/pdf/2605.14925)[[Code]](https://github.com/YsongF/GeoFuse) |
 
 
 
