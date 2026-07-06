@@ -91,7 +91,7 @@ sh run_cvusa.sh
         </a >
         <br><sub>Multi-view Multi-source Benchmark<br>Ground · Drone · Satellite · ACM MM'20</sub>
         <br><br>
-        <a href="https://github.com/layumi/University1652-Baseline"><img src="https://img.shields.io/github/stars/layumi/University1652-Baseline.svg?style=social&label=Star" alt="GitHub stars"></a>
+        <a href="https://github.com/layumi/University1652-Baseline"><img src="https://img.shields.io/github/stars/layumi/University1652-Baseline.svg?style=social&label=Star" alt="GitHub stars"></a >
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/wtyhub/MuseNet">
@@ -100,7 +100,7 @@ sh run_cvusa.sh
         </a >
         <br><sub>Multi-Weather Extension on the Fly<br>Pattern Recognition'24</sub>
         <br><br>
-        <a href="https://github.com/wtyhub/MuseNet"><img src="https://img.shields.io/github/stars/wtyhub/MuseNet.svg?style=social&label=Star" alt="GitHub stars"></a>
+        <a href="https://github.com/wtyhub/MuseNet"><img src="https://img.shields.io/github/stars/wtyhub/MuseNet.svg?style=social&label=Star" alt="GitHub stars"></a >
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/MultimodalGeo/GeoText-1652">
@@ -109,7 +109,7 @@ sh run_cvusa.sh
         </a >
         <br><sub>Dense Text Extension<br>ECCV'24</sub>
         <br><br>
-        <a href="https://github.com/MultimodalGeo/GeoText-1652"><img src="https://img.shields.io/github/stars/MultimodalGeo/GeoText-1652.svg?style=social&label=Star" alt="GitHub stars"></a>
+        <a href="https://github.com/MultimodalGeo/GeoText-1652"><img src="https://img.shields.io/github/stars/MultimodalGeo/GeoText-1652.svg?style=social&label=Star" alt="GitHub stars"></a >
       </td>
     </tr>
   </table>
