@@ -109,7 +109,7 @@ sh run_cvusa.sh
         </a >
         <br><sub>Dense Text Extension<br>ECCV'24</sub>
         <br><br>
-        <a href="https://github.com/MultimodalGeo/GeoText-1652"><img src="https://img.shields.io/github/stars/MultimodalGeo/GeoText-1652.svg?style=social&label=Star" alt="GitHub stars"></a >
+        <a href="https://github.com/MultimodalGeo/GeoText-1652"><img src="https://img.shields.io/github/stars/MultimodalGeo/GeoText-1652.svg?style=social&label=Star" alt="GitHub stars"></a>
       </td>
     </tr>
   </table>
